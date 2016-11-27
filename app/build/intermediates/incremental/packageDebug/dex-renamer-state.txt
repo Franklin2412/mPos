@@ -1,4 +1,4 @@
-#Sun Nov 27 09:08:57 IST 2016
+#Sun Nov 27 11:22:37 IST 2016
 base.0=/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a6c6fd65b1e167180749f14ed567b10b701c33b6
 renamed.1=classes.dex
 renamed.0=classes2.dex

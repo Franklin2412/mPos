@@ -30,7 +30,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         switch (view.getId()){
             case R.id.login_button:
                 if(usernameEditText.getText().toString().length() > 1 && passwordEditText.getText().length() > 1) {
-                    Intent intent = new Intent(this, InformationActivity.class);
+                    Intent intent = new Intent(this, Flow.class);
                     startActivity(intent);
                 }else{
                     Toast.makeText(this, "Please Enter username and password", Toast.LENGTH_LONG).show();

@@ -49,6 +49,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -97,6 +98,8 @@ public class MainActivity extends Activity implements
     private String mPlayText;
     private char mRecgs[] = new char[100];
     private int mRecgCount;
+
+    private  static String receivedData = "";
 
     static {
         System.loadLibrary("sinvoice");
@@ -356,7 +359,9 @@ public class MainActivity extends Activity implements
                         if (msg.arg1 >= 0) {
                             Log.d(TAG, "reg ok!!!!!!!!!!!!");
                             if (null != mAct) {
-                                mAct.mRecognisedTextView.setText(strReg);
+
+                                receivedData += strReg;
+                                mAct.mRecognisedTextView.setText(receivedData);
                                 // mAct.mRegState.setText("reg ok(" + msg.arg1 + ")");
                             }
                         } else {
@@ -392,6 +397,14 @@ public class MainActivity extends Activity implements
     @Override
     public void onSinVoiceRecognitionEnd(int result) {
         mHanlder.sendMessage(mHanlder.obtainMessage(MSG_RECG_END, result, 0));
+
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                LinearLayout ll = (LinearLayout) findViewById(R.id.payment_options);
+                ll.setVisibility(View.VISIBLE);
+            }
+        });
     }
 
     @Override

@@ -43,7 +43,8 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:textSize="17sp"
-        android:hint="Ph No:"/>
+        android:hint="Ph No:"
+        android:inputType="phone" />
 
     <View
         android:layout_width="match_parent"

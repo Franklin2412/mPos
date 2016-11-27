@@ -58,7 +58,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:hint="Qty"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:inputType="number" />
 
                 <EditText
                     android:id="@+id/unit_price_edit_text"
@@ -66,7 +67,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:hint="Unit Price"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:inputType="number" />
             </LinearLayout>
             <View
                 android:layout_below="@+id/productDetailsTextView"

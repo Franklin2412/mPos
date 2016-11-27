@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/merchant_flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:text="Merchant Flow"
+        android:background="@drawable/button_background"
+        android:textColor="@color/buttonTextColor"
+        android:onClick="merchantFlow"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:onClick="userFlow"
+        android:id="@+id/user_flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:text="User Flow"
+        android:background="@drawable/button_background"
+        android:textColor="@color/buttonTextColor"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

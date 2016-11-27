@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:2:1-47:12
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml
@@ -48,7 +48,7 @@ MERGED from [com.android.support:support-v4:23.1.1] /Users/shoaib/Desktop/Trash/
 		INJECTED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:17:5-45:19
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:17:5-48:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
 	android:label
@@ -94,16 +94,24 @@ ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/An
 	android:name
 		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:36:19-67
 activity#com.demo.mpos.CustomerDetailsActivity
-ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:37:9-83
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:37:9-73
 	android:name
 		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:37:19-71
+activity#com.demo.mpos.Flow
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:38:9-54
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:38:19-52
+activity#com.demo.mpos.UserReceivePayment
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:39:9-69
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:39:19-66
 service#com.example.sinvoicedemo.MyService
-ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:39:10-43:14
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:42:10-46:14
 	android:name
-		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:39:19-44
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:42:19-44
 intent-filter#com.my.IService
-ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:40:5-42:21
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:43:5-45:21
 action#com.my.IService
-ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:41:5-53
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:44:5-53
 	android:name
-		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:41:13-43
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:44:13-43

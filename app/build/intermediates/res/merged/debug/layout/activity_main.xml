@@ -17,6 +17,7 @@
         android:layout_marginTop="20dp"
         android:orientation="horizontal" >
         <TextView
+            android:visibility="gone"
             android:id="@+id/regstate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -30,6 +31,7 @@
     </LinearLayout>
 
     <TextView
+        android:visibility="gone"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
@@ -37,34 +39,40 @@
         android:text="@string/input_char" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="5dp"
-        android:orientation="horizontal" >
+        android:orientation="vertical" >
 
         <Button
+            android:textColor="@color/buttonTextColor"
+            android:background="@color/primaryButtonColor"
             android:id="@+id/start_reg"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="START LISTENING" />
+            android:text="RECEIVE PAYMENT" />
 
         <Button
+            android:visibility="gone"
             android:id="@+id/stop_reg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="STOP LISTENING" />
 
         <TextView
+            android:layout_marginTop="30dp"
             android:id="@+id/regtext"
             android:layout_width="wrap_content"
             android:layout_height="62dp"
             android:scrollbars="vertical"
             android:singleLine="false"
-            android:text="RECOGNISED TEXT" />
+            android:text="Payment information received" />
     </LinearLayout>
 
     <LinearLayout
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -98,6 +106,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -112,6 +121,8 @@
     </LinearLayout>
 
     <LinearLayout
+        android:visibility="gone"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -130,7 +141,109 @@
             android:layout_height="wrap_content"
             android:text="clear all log info" />
     </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/payment_options"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Card Details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:inputType="number"
+                android:hint="Credit card number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:hint="Month"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:hint="Year"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:hint="CVV"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:hint="Name on card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Net Banking options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/nb_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Wallets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/pum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/ptm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/fc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:textColor="@color/buttonTextColor"
+                android:background="@color/primaryButtonColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PAY NOW" />
+
+        </LinearLayout>
+
     </LinearLayout>
+
+
     </ScrollView>
 
 </LinearLayout>

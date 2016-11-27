@@ -34,7 +34,10 @@
         <activity android:name="com.demo.mpos.InformationActivity" />
         <activity android:name="com.demo.mpos.RequestPaymentActivity" />
         <activity android:name="com.demo.mpos.RequestSentActivity" />
-        <activity android:name="com.demo.mpos.CustomerDetailsActivity"></activity>
+        <activity android:name="com.demo.mpos.CustomerDetailsActivity"/>
+        <activity android:name="com.demo.mpos.Flow"/>
+        <activity android:name="com.demo.mpos.UserReceivePayment" />
+
         
          <service android:name=".MyService">
 			 <intent-filter>

@@ -40,6 +40,10 @@
         "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/res/drawable/home_button_background.xml"
     },
     {
+        "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/drawable/fc.png",
+        "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/res/drawable/fc.png"
+    },
+    {
         "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_light.xml"
     },
@@ -58,6 +62,14 @@
     {
         "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
         "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/drawable/nb_img.png",
+        "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/res/drawable/nb_img.png"
+    },
+    {
+        "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/drawable/om.png",
+        "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/res/drawable/om.png"
     },
     {
         "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
@@ -96,6 +108,10 @@
         "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
+        "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/drawable/ptm.png",
+        "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/res/drawable/ptm.png"
+    },
+    {
         "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/drawable/login_background_bottom.xml",
         "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/res/drawable/login_background_bottom.xml"
     },
@@ -106,6 +122,10 @@
     {
         "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/drawable/pum.png",
+        "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/res/drawable/pum.png"
     },
     {
         "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",

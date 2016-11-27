@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/layout/user_receive_payment.xml",
+        "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/res/layout/user_receive_payment.xml"
+    },
+    {
         "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple.xml"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/layout/activity_request_sent.xml",
         "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/res/layout/activity_request_sent.xml"
+    },
+    {
+        "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/layout/user_selection.xml",
+        "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/res/layout/user_selection.xml"
     },
     {
         "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
@@ -92,12 +100,12 @@
         "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/layout/activity_request_payment.xml",
-        "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/res/layout/activity_request_payment.xml"
-    },
-    {
         "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/layout/activity_request_payment.xml",
+        "source": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/res/layout/activity_request_payment.xml"
     },
     {
         "merged": "/Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
