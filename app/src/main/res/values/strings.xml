@@ -1,8 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MPOS</string>
+
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="chirp_app_key">zyLo8iqAxzKKKeT7wpbU6i65K</string>
-    <string name="chirp_app_secret">vLvnTRZIScqC4WOMuzoLyKNseerWGPQ4OBdPV9Bl6gJGNhz9bL</string>
+    <string name="info">该演示程序限制了编码和解码的次数，在识别n（n为随机值）次后程序会自动停止识别（如果发送的字符太长程序也不会发送），若想继续使用请重新启动该程序（商业正式版没有这个限制）,作者QQ:29600731。</string>
+    <string name="init_str">009_@aazAZ</string>
+    <string name="input_char">请输入数字、字母和_@</string>
+    <!-- string name="sample_250">818148000776523786091945863234668193348000423196107080429580818247910282802827230193854480465825137628192762171555894337963506924695859382481533458895714783844408068318080834447707107289091666495233100040693431889995315622912728227724683796945026971</string -->
+    <string name="sample_250">8181480</string>
+
+    <string name="app_name">MPOS</string>
 
 </resources>

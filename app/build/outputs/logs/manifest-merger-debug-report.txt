@@ -1,0 +1,109 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:2:1-47:12
+	package
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:8:5-70
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:9:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:10:22-65
+uses-permission#android.permission.INTERNET
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:11:22-64
+uses-sdk
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:13:5-15:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:15:9-38
+		INJECTED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:14:9-35
+		INJECTED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:17:5-45:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:20:9-41
+	android:allowBackup
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:19:9-45
+	android:theme
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:21:9-40
+activity#com.demo.mpos.LoginActivity
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:22:9-31:20
+	android:label
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:25:13-45
+	android:configChanges
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:23:13-57
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:24:13-55
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:29:27-74
+activity#com.example.sinvoicedemo.MainActivity
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:33:9-50
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:33:19-47
+activity#com.demo.mpos.InformationActivity
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:34:9-70
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:34:19-67
+activity#com.demo.mpos.RequestPaymentActivity
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:35:9-73
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:35:19-70
+activity#com.demo.mpos.RequestSentActivity
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:36:9-70
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:36:19-67
+activity#com.demo.mpos.CustomerDetailsActivity
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:37:9-83
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:37:19-71
+service#com.example.sinvoicedemo.MyService
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:39:10-43:14
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:39:19-44
+intent-filter#com.my.IService
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:40:5-42:21
+action#com.my.IService
+ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:41:5-53
+	android:name
+		ADDED from /Users/shoaib/Desktop/Trash/android_fullcharset_v2.22/app/src/main/AndroidManifest.xml:41:13-43
