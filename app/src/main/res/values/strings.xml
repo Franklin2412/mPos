@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MPOS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="chirp_app_key">zyLo8iqAxzKKKeT7wpbU6i65K</string>
+    <string name="chirp_app_secret">vLvnTRZIScqC4WOMuzoLyKNseerWGPQ4OBdPV9Bl6gJGNhz9bL</string>
+
+</resources>

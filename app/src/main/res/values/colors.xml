@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01BED0</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="primaryButtonColor">#01BED0</color>
+    <color name="secondaryButtonColor">#01BED0</color>
+    <color name="textColor">#555D70</color> 
+    <color name="headingColor">#555D70</color>
+    <color name="loginBoxColor">#F0F0F0</color>
+    <color name="forgotPasswordColor">#9B9B9B</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+</resources>
